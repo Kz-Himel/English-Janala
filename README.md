@@ -1,9 +1,6 @@
 # ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
 
 ---
-# ![English Janala Banner](https://via.placeholder.com/1200x200?text=English+Janala)
-
----
 
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/english-janala?style=flat-square)](https://github.com/yourusername/english-janala/stargazers) 
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/english-janala?style=flat-square)](https://github.com/yourusername/english-janala/network) 
