@@ -1,116 +1,63 @@
 # ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
 
 ---
-
-## ⚡ API Endpoints
-
-1. Get ⚡ All Levels
-
-```bash
-https://openapi.programming-hero.com/api/levels/all
-```
-
-1. Get ⚡ Words by Levels <br/>
-   https:// openapi.programming-hero.com/api/level/{id}
-
-```bash
-https://openapi.programming-hero.com/api/level/5
-```
-
-1. Get ⚡ Words Detail <br/>
-   https:// openapi.programming-hero.com/api/word/{id}
-
-```bash
-https://openapi.programming-hero.com/api/word/5
-```
-
-1. Get ⚡ All Words <br/>
-
-```bash
-https://openapi.programming-hero.com/api/words/all
-```
-
-# Work To do
-
-### 1. Show Levels on The UI
-
-- [ ] Show a center-aligned heading as Figma
+# ![English Janala Banner](https://via.placeholder.com/1200x200?text=English+Janala)
 
 ---
 
-- [ ] Create dynamically generated buttons from **API-01** for each lesson
-- [ ] Lesson Buttons will be displayed on page load
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/english-janala?style=flat-square)](https://github.com/yourusername/english-janala/stargazers) 
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/english-janala?style=flat-square)](https://github.com/yourusername/english-janala/network) 
+[![License](https://img.shields.io/github/license/yourusername/english-janala?style=flat-square)](https://github.com/yourusername/english-janala/blob/main/LICENSE) 
 
 ---
 
-### 2. Show Word Cards Based on Level
+## 🚀 Project Overview
+**English Janala** is a modern and interactive English learning platform built with **plain JavaScript**, **Tailwind CSS**, and **DaisyUI**. It dynamically fetches content from APIs to provide exercises, quizzes, and learning materials, making learning English fun and easy.  
 
-- [ ] Show a default text that will be displayed in the Vocabulary section initially
-- [ ] on Clicking a Specific Lesson Button Load All the words from **API-02**
-- [ ] Display all words for a selected lesson in a card format, showing:
-
-  - [ ] Word
-  - [ ] Word meaning & pronunciation
-  - [ ] Two buttons with relevant icons as per Figma
-
-- [ ] Show **\*No Word Found** message if no words exist for a lesson
+**Live Demo:**  
+https://kz-himel.github.io/English-Janala/  
 
 ---
 
-- [ ] Create functionality to highlight the active lesson button
+## 🖼 Screenshot  
+!(https://via.placeholder.com/800x400?text=English+Janala+Screenshot)  
 
 ---
 
-### 3. Use Different Color on The Active Level Button
-
-- [ ] After Successfully Loading words of a level , diffirentiate the button so user can understand which button is active
-
-### 4. Vocabulary Details
-
-- [ ] Create functionality to open a modal when clicking the details icon
-- [ ] Data will be load from **API-03**
-- [ ] modal will displays:
-  - [ ] Word with pronunciation
-  - [ ] Example sentence
-  - [ ] Synonyms
-  - [ ] A "Complete Learning" button to close the modal
-
-### 5. Handling Invalid Data
-
-- [ ] avoid displaying falsy values like `undefined` or `null`
-- [ ] display relevant words if no data is found
-
-### 6. Loading Spinner
-
-- [ ] Create a loading spinner that will be display when vocabulary is loading from API
-
-### 7. Implement Search Functionality
-
-- [ ] Take a input Box.
-- [ ] on Changing value It will Search word and show in the UI.
-- [ ] If anyone Do search reset active button
-
-### 8. Save Word Feature
-
-- [ ] in the UI of Card add a button `Heart icon`
-- [ ] on Clicking it. Store the Word in the Saved Box
-- [ ] Show Saved words in a Different Section.
-
-### 9. Speak your Vocabularies
-
-- [ ] Create functionality for voice pronunciation of vocabulary words
-- [ ] Use below function and implement on clicking sound icon
-
-```js
-function pronounceWord(word) {
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = "en-EN"; // English
-  window.speechSynthesis.speak(utterance);
-}
-```
-
-For More >> you can explore this implementation 👉 [https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ](https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ)
+## ✨ Features
+- Interactive English learning exercises
+- Dynamic content fetched from APIs
+- Fully responsive layout for all devices
+- Search and filter functionality
+- Clean and smooth UI using DaisyUI components
+- Easy navigation and user-friendly interface
 
 ---
-Bonus : How to create Private Repository for next assignments
-## Test Repo - :  https://classroom.github.com/a/Fgjib-lr
+
+## 🛠 Technologies Used
+- **JavaScript (ES6+)** – Core logic and DOM manipulation  
+- **HTML5 & CSS3** – Structure and styling  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **DaisyUI** – Tailwind-based component library  
+- **RESTful API** – Dynamic content fetching  
+
+---
+
+## ⚡ Getting Started (Local Setup)
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/english-janala.git  
+2. **Navigate to the project directory
+   ```bash
+   cd english-janala
+4. **Open your browser and go to  
+   ```bash
+   http://localhost:5173
+
+If you don’t have a dev server, you can simply open index.html in your browser.
+
+🔗 Relevant Links
+GitHub Repository: https://github.com/Kz-Himel/English-Janala
+Live Demo: https://kz-himel.github.io/English-Janala/
