@@ -2,22 +2,11 @@
 
 ---
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/english-janala?style=flat-square)](https://github.com/yourusername/english-janala/stargazers) 
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/english-janala?style=flat-square)](https://github.com/yourusername/english-janala/network) 
-[![License](https://img.shields.io/github/license/yourusername/english-janala?style=flat-square)](https://github.com/yourusername/english-janala/blob/main/LICENSE) 
-
----
-
 ## 🚀 Project Overview
 **English Janala** is a modern and interactive English learning platform built with **plain JavaScript**, **Tailwind CSS**, and **DaisyUI**. It dynamically fetches content from APIs to provide exercises, quizzes, and learning materials, making learning English fun and easy.  
 
 **Live Demo:**  
 https://kz-himel.github.io/English-Janala/  
-
----
-
-## 🖼 Screenshot  
-!(https://via.placeholder.com/800x400?text=English+Janala+Screenshot)  
 
 ---
 
